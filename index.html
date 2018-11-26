@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>formule</title>
+      <link rel=stylesheet href="formulier.css" >
+   </head>
+   <body>
+      <h1>Een plan voor jouw ontwikkeling</h1>
+      <p>om een eerste stap te zetten naar een persoonlijk opleidingplan zul je eerst een paar vragen voor jezelf moeten beantwoorden. Dit formulier helpt jou daar bij.</p>
+      <label>vul hier je naam in*
+      <input type = "text" name="custname" placeholder="first and last name" required="required" autofocus /></label>
+      <label>
+         in welke klas?
+         <select name="hearAboutUs" >
+            <option value="MG1A">MG1A</option>
+            <option value="MG1B">MG1B</option>
+            <option value="MG1C">MG1C</option>
+            <option value="MG1D" selected>MG1D</option>
+         </select>
+      </label>
+      <form action=" http://bla.hosts.ma-cloud.nl/pop.php" method="get">
+         <fieldset id = "border1">
+            <legend>welbevinden</legend>
+            <p> Hoe positief ben je op dit moment over deze opleiding?</p>
+            <label><input type="radio" name="rating" value="0">
+            0</label>
+            <label><input type="radio" name="rating" value="1">
+            1</label>
+            <label><input type="radio" name="rating" value="2">
+            2</label>
+            <label><input type="radio" name="rating" value="3">
+            3</label>
+            <label><input type="radio" name="rating" value="4">
+            4</label>
+            <label><input type="radio" name="rating" value="5">
+            5</label>
+            <label><input type="radio" name="rating" value="6">
+            6</label>
+            <label><input type="radio" name="rating" value="7">
+            7</label>
+            <label><input type="radio" name="rating" value="8">
+            8</label>
+            <label><input type="radio" name="rating" value="9">
+            9</label>
+            <label><input type="radio" name="rating" value="10">
+            10</label>
+            <p> Hoe gemotiveerd ben je momenteel om je opleiding af te maken?</p>
+            <label><input type="radio" name="rating1" value="0">
+            0</label>
+            <label><input type="radio" name="rating1" value="1">
+            1</label>
+            <label><input type="radio" name="rating1" value="2">
+            2</label>
+            <label><input type="radio" name="rating1" value="3">
+            3</label>
+            <label><input type="radio" name="rating1" value="4">
+            4</label>
+            <label><input type="radio" name="rating1" value="5">
+            5</label>
+            <label><input type="radio" name="rating1" value="6">
+            6</label>
+            <label><input type="radio" name="rating1" value="7">
+            7</label>
+            <label><input type="radio" name="rating1" value="8">
+            8</label>
+            <label><input type="radio" name="rating1" value="9">
+            9</label>
+            <label><input type="radio" name="rating1" value="10">
+            10</label>
+            <p> Hoeveel vertrouwen heb je momenteel in je eigen kunnen? </p>
+            <label><input type="radio" name="rating2" value="0">
+            0</label>
+            <label><input type="radio" name="rating2" value="1">
+            1</label>
+            <label><input type="radio" name="rating2" value="2">
+            2</label>
+            <label><input type="radio" name="rating2" value="3">
+            3</label>
+            <label><input type="radio" name="rating2" value="4">
+            4</label>
+            <label><input type="radio" name="rating2" value="5">
+            5</label>
+            <label><input type="radio" name="rating2" value="6">
+            6</label>
+            <label><input type="radio" name="rating2" value="7">
+            7</label>
+            <label><input type="radio" name="rating2" value="8">
+            8</label>
+            <label><input type="radio" name="rating2" value="9">
+            9</label>
+            <label><input type="radio" name="rating2" value="10">
+            10</label>
+         </fieldset>
+
+        <fieldset id = "border2">
+            <legend>leuk</legend>
+            <p> welke porgrammeer taal/talen vind je het leukst?</p>
+               <input type="checkbox" name="HTML" value="sterk">
+            Coderen in HTML/CSS
+            <input type="checkbox" name="Java" value="sterk">
+            programmeren in java
+            <input type="checkbox" name="JS" value="sterk">
+            scripting: porgrammeren in javascript
+            <input type="checkbox" name="plannen" value="sterk">
+            planning
+            <input type="checkbox" name="samenwerken" value="sterk">
+            samenwerken
+          </fieldset>
+
+
+
+         <fieldset id = "border3">
+            <legend>Sterke kanten</legend>
+            <p> Wat zijn jouw sterke kanten?</p>
+            <input type="checkbox" name="HTML" value="sterk">
+            Coderen in HTML/CSS
+            <input type="checkbox" name="Java" value="sterk">
+            programmeren in java
+            <input type="checkbox" name="JS" value="sterk">
+            scripting: porgrammeren in javascript
+            <input type="checkbox" name="plannen" value="sterk">
+            planning
+            <input type="checkbox" name="samenwerken" value="sterk">
+            samenwerken
+         </fieldset>
+         <fieldset id = "border4">
+            <legend>nog te ontwikkelen</legend>
+            <p> aan welke skills moet je nog aandacht besteden?</p>
+            <input type="checkbox" name="HTML" value="ontwikkelen">
+            Coderen in HTML/CSS
+            <input type="checkbox" name="Java" value="ontwikkelen">
+            programmeren in java
+            <input type="checkbox" name="JS" value="ontwikkelen">
+            scripting: porgrammeren in javascript
+            <input type="checkbox" name="plannen" value="ontwikkelen">
+            planning
+            <input type="checkbox" name="samenwerken" value="ontwikkelen">
+            samenwerken
+         </fieldset>
+         <p>wat zijn jouw plannen voor de toekomst</p>
+         <textarea rows ="10" cols="50"></textarea>
+         <input type = "submit" value="Send"/>
+      </form>
+      <br>
+      <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+      <img src="http://blog.boyet.com/blog/files/media/image/valid-html5-blue.png" alt="Valide HTML5"></a>
+      <a href="http://jigsaw.w3.org/css.validator/check/referer" target="_blank">
+      <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS"></a>
+   </body>
+</html>
